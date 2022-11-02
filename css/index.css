@@ -42,7 +42,7 @@ nav{
 
 .background{
     height: 890px;
-    background-image: url(/img/desktop/imagenNav.webp);
+    background-image: url("/img/desktop/imagenNav.webp");
     background-position: bottom; 
     width: 100%; 
 }

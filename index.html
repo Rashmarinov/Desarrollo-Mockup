@@ -11,10 +11,114 @@
 </head>
 <body>
     <!--Todo el body es de color verde-->
-    <div>
-        <!--Aquí dentro va todo-->
+    <div class="container">
+        <!--NAV-->
+        <!--Padre flex-->
+        <nav>
+            <h1>LO</h1>
+            
+            <ul class="opciones">
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="articles">ARTICLES</a></li>
+                <li><a class="opcBorde" href="subscribe">SUBSCRIBE</a></li>
+            </ul>
 
+            
+        </nav>
+        <article class="background">
+
+        </article>
     </div>
     
+ 
+    <!--Zona central con 3 imagenes-->
+    <!--Padre flex-->
+    <section class="seccionCentral">
+        <section class="textocentral">
+            <h2> LATEST ARTICLES</h2>
+            <hr class="rayatextocentral">
+        </section>
+        <!-- Hijo flex foto izquierda-->
+        <section class="imagenescentral">    
+            <figure>
+                <picture>
+                    <source srcset="/img/desktop/imagenMarca1.webp 1x,
+                                    /img/desktop/imagenMarca1@2x.webp 2x">
+                    <img class="imagenMarca1" src="" alt="bonsai verde">
+                </picture>  
+                <figcaption class="fotoizquierda">
+                    <hr class="rayafotoizquierda">
+                    <p>How to get mindfulness in your everyday life</p>
+
+                </figcaption>
+            </figure>
+        
+            <!-- Hijo flex foto central-->
+            <figure>
+                <picture>
+                    <source srcset="/img/desktop/imagenMarca2.webp 1x,
+                                    /img/desktop/imagenMarca2@2x.webp 2x">
+                    <img class="imagenMarca2" src="" alt="bonsai verde">
+                </picture>  
+                <figcaption class="fotocentral">
+                    <hr class="rayafotocentral">
+                    <p>What are the best walking for medidation</p>
+
+                </figcaption>
+            </figure>
+
+            <!-- Hijo flex foto derecha-->
+            <figure>
+                <picture>
+                    <source srcset="/img/desktop/imagenMarca3.webp 1x,
+                                    /img/desktop/imagenMarca3@2x.webp 2x">
+                    <img class="imagenMarca3" src="" alt="bonsai verde">
+                </picture>  
+                <figcaption class="fotoderecha">
+                    <hr class="rayafotoderecha">
+                    <p>How to go deep into the mind of hope</p>
+
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+    <!--Zona imagen + texto-->
+    <section class="seccionBaja">
+        <!-- Imagen izquierda -->
+        <img src="/img/desktop/imagenBody.webp" alt="Jardin japonés">
+
+        <article class="backgroundDerecha">
+            <h2>ABOUT</h2>
+            <hr class="rayabackgroundDerecha">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque in quas placeat illo aut. Quasi error sunt assumenda, quae eum dolor nisi necessitatibus excepturi reiciendis harum consequuntur earum aliquam? Officiis.</p>
+        </article>
+
+    </section>
+    <section class="suscribe">
+        <h2>SUBSCRIBE</h2>
+        <p>Sign up to our newsletter</p>
+        <input type="text" placeholder="Email address" name="mail" required>
+        <div>
+            <input type="submit" value="SUBMIT">
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <section class="iconosfooter">
+            <img src="img/svg/Instagram.svg" alt="Icono Instagram">
+            <img src="img/svg/Twitter.svg" alt="Icono Instagram">
+            <img src="img/svg/Facebook.svg" alt="Icono Instagram">
+            <img src="img/svg/Pinterest.svg" alt="Icono Instagram">
+        </section>
+        <section class="opcionesfooter">
+            <li><a href="about">ABOUT</a></li>
+            <li><a href="articles">ARTICLES</a></li>
+            <li><a href="subscribe">SUBSCRIBE</a></li>
+        </section>
+
+    </footer>
+
 </body>
 </html>

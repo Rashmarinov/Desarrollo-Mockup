@@ -1,0 +1,154 @@
+/******* FONTS ********/
+/* ****************** */
+/* Brother 1816 Regular */
+@font-face {
+    font-family: "brotherRegular";
+    src: url(/fonts/Brother1816Printed-Regular.woff2);
+}
+
+/* Brother 1816 Black */
+@font-face {
+    font-family: "brotherBlack";
+    src: url(/fonts/Brother1816-Black.woff2);
+}
+
+
+body{
+    font-family: "brotherRegular";
+    background-color: rgba(92, 111, 111, 1);
+    margin: 90px;
+}
+
+h1{
+    font-family : "brotherBlack";
+}
+
+.container{
+    padding: 15px;
+    background-color: rgba(236, 240, 240, 1);
+    
+    
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    height: 250px;
+    max-width: 1920px;
+    justify-content: space-between;
+    background-color: rgba(171, 169, 170, 1);
+
+}
+
+.background{
+    height: 890px;
+    background-image: url(/img/desktop/imagenNav.webp);
+    background-position: bottom; 
+    width: 100%; 
+}
+
+
+.opciones {   
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.imagenNav{
+
+    
+}
+
+.opcBorde{
+    border-style: solid;
+    
+}
+
+.seccionCentral{
+    background-color: rgba(233, 234, 232, 1);
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textocentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.rayatextocentral{
+    height: 3px;
+    width: 30%;
+    background-color: black;
+}
+
+.imagenescentral{
+    display: flex;
+    align-items: center;
+    text-align: center;  
+}
+
+.fotoizquierda, .fotocentral, .fotoderecha{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.rayafotoizquierda, .rayafotocentral, .rayafotoderecha, .rayabackgroundDerecha {
+    height: 3px;
+    width: 10%;
+    background-color: black;
+}
+
+.seccionBaja{
+    display: flex;
+    background-color: rgba(236, 240, 240, 1);
+    text-align: center;
+    
+}
+
+.backgroundDerecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.suscribe{
+    background-color: rgba(215, 219, 214, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+}
+
+footer{
+    height: 300px;
+    background-color: rgba(236, 240, 240, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+.iconosfooter{
+
+}
+
+.opcionesfooter{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+    
+}
